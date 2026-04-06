@@ -1,0 +1,27 @@
+
+Validation summary for the cleaned package
+========================================
+
+The cleaned package was compared against the original exact CPU implementation
+on several polygons scaled to total area pi, using:
+
+- profile grid comparison,
+- coarse/fine maximal-ratio comparison,
+- exact candidate recovery at the maximizing area.
+
+Test cases:
+- square,
+- irregular pentagon,
+- irregular hexagon.
+
+Maximum observed discrepancies:
+- profile grid areas:        0.0
+- profile values I(A):       0.0
+- relative ratios:           4.44e-16
+- refined best ratio:        2.22e-16
+- refined best area:         0.0
+- candidate free perimeter:  0.0
+
+In addition, scale invariance was checked numerically:
+if the polygon is dilated by a factor 3, the relative ratio is unchanged up to
+machine precision, and the maximizing reduced area scales by a factor 9.
