@@ -1,5 +1,5 @@
 
-# isoperimetric-profile
+# Relative isoperimetric profile of a convex polygon
 
 Compute the exact **relative isoperimetric profile**
 
